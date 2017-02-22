@@ -230,6 +230,16 @@ h2:before,
 h2:before{
 	content: "Q: ";
 }
+/*~Publisher*/
+.publisher{
+	width: 100%;
+	clear: both;
+	border-top: 1px solid #777;
+	padding: 2rem;
+	font-size: 2rem;
+	display: none;
+}
+
 footer{
 	font-size: 1.2em;
 	clear: both;
