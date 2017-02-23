@@ -13,6 +13,13 @@ gulp.task('build', ['watch'], function() {
           suffix: '.min'
         }))
     .pipe(gulp.dest('css'));
+    
+   return gulp.src(['assets/*.svg','!assets/*.min.svg'])
+           .pipe(plugins.svgmin())
+           .pipe(plugins.rename({
+                 suffix: '.min'
+               }))
+           .pipe(gulp.dest('assets'));
 });
 
 gulp.task('watch', function () {

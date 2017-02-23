@@ -2,6 +2,7 @@
   "dependencies": {
     "gulp-clean-css": "*",
     "gulp-rename": "*",
-    "gulp-watch": "*"
+    "gulp-watch": "*",
+    "gulp-svgmin": "*"
   }
 }

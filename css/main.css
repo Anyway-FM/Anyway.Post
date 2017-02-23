@@ -55,18 +55,6 @@ header{
 	margin: 3rem 0;
 	max-height: 30vh;
 }
-.logotype{
-	stroke-dasharray: 300;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	fill: #444;
-/*		animation: logo-in 1.8s ease-out .1s forwards;*/
-	fill-rule: evenodd;
-}
-@keyframes logo-in {
-	0%{stroke: #999; stroke-opacity:1; stroke-dashoffset: 300; fill: #fff;}
-	100%{stroke: #999; stroke-opacity:0; stroke-dashoffset: 0; fill: #444;}
-}
 nav{
 	border-bottom: 1px solid #777;
 	border-top: 1px solid #777;
@@ -236,10 +224,25 @@ h2:before{
 	clear: both;
 	border-top: 1px solid #777;
 	padding: 2rem;
-	font-size: 2rem;
+	font-size: 1rem;
+	overflow: hidden;
 	display: none;
 }
-
+.publisher h1{
+	float: left;
+	width: 30%;
+	text-align: left;
+	font-size: 3rem;
+	line-height: 1;
+}
+.publisher p{
+	float: left;
+	width: 60%;
+	padding-left: 10rem;
+}
+.publisher li{
+	text-align: left;
+}
 footer{
 	font-size: 1.2em;
 	clear: both;
