@@ -13,7 +13,7 @@ gulp.task('default', function() {
  
 gulp.task('build', function() {
 
-	gulp.src('*.html')
+	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
 		.pipe(plugins.htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest('build'));
