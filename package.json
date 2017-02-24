@@ -3,6 +3,7 @@
     "gulp-clean-css": "*",
     "gulp-rename": "*",
     "gulp-watch": "*",
-    "gulp-svgmin": "*"
+    "gulp-batch-replace": "*",
+    "gulp-htmlmin": "*"
   }
 }
