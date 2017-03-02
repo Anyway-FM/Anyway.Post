@@ -8,23 +8,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link rel="shortcut icon" href="http://anyway-web.b0.upaiyun.com/images/favicon.png" />
-	<link rel="stylesheet" rev="stylesheet" href="css/main.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="build/main.min.css" type="text/css" media="all" />
 
 </head>
 <?php
 	if ($_GET['email']) {
 		$email = $_GET['email'];
 		if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email)) {
-			$logFile = fopen('address.txt', "a");
-			fwrite($logFile, $email."\n");
-			fclose($logFile);
-			$content="
-				<h1>&nbsp&nbsp订阅成功！</h1>
-				感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ <br />
-				友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ <br />
-				可以把我们的发件地址「<strong>hello@anyway.fm</strong>」加到邮箱的白名单中~
-				<p><a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a></p>
-				";
+			if (preg_match("/^angelina@mydomain.com/",$email)) {
+				$content="没啥可显示的，就这样吧……";
+			}
+			else {
+				$logFile = fopen('address.txt', "a");
+				fwrite($logFile, $email."\n");
+				fclose($logFile);
+				$content="
+					<h1>&nbsp&nbsp订阅成功！</h1>
+					感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ <br />
+					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ <br />
+					可以把我们的发件地址「<strong>hello@anyway.fm</strong>」加到邮箱的白名单中~
+					<p><a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a></p>
+					";
+			}
 		}
 		else {
 			$content="
@@ -45,7 +50,7 @@
 ?>
 <body>
 	<header class="responsive">
-		<img class="logo" src="assets/logo.svg" alt="Anyway.Post 安妮薇邮报" />		
+		<img class="logo" src="build/anyway-post-logo.svg" alt="Anyway.Post 安妮薇邮报" />		
 	</header>
 	
 	<nav class="responsive">
@@ -57,14 +62,8 @@
 	<main class="responsive">
 		<section class="tagline">
 			<?php echo($content);?>
-			
 		</section>
-
-		
-
 	</main>
-	
-
 	
 	<footer class="responsive">
 		<div class="inner">
