@@ -17,7 +17,11 @@ gulp.task('default', function() {
 		.pipe(plugins.batchReplace(cdnUrl))
 		.pipe(plugins.htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest('build'));
-		
+	
+	gulp.src('*.svg')
+	        .pipe(plugins.svgo())
+	        .pipe(gulp.dest('build'));
+	
 	gulp.src(['css/*.css','!css/*.min.css'])
 		.pipe(plugins.cleanCss({compatibility: 'ie8'}))
 		.pipe(plugins.rename({
