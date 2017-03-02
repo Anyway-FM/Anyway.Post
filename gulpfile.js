@@ -6,12 +6,12 @@ var cdnUrl = [
 	[ 'build/', 'http://anyway-web.b0.upaiyun.com/anyway.post/' ]
 ];
  
-gulp.task('default', function() {
-	gulp.watch(['*','*/*'], ['build']);
+gulp.task('watch', function() {
+	gulp.watch(['*','*/*'], ['default']);
  });
  
  
-gulp.task('build', function() {
+gulp.task('default', function() {
 
 	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
