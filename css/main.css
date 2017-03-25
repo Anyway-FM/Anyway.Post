@@ -220,28 +220,43 @@ h2:before{
 }
 /*~Publisher*/
 .publisher{
-	width: 100%;
 	clear: both;
 	border-top: 1px solid #777;
-	padding: 2rem;
+	padding: 1em 0 1em 2rem;
 	font-size: 1rem;
 	overflow: hidden;
-	display: none;
 }
 .publisher h1{
 	float: left;
-	width: 30%;
+	width: 40%;
 	text-align: left;
 	font-size: 3rem;
 	line-height: 1;
+	padding: .2em 0;
+	margin: 0;
+	border-right: 1px dotted #777;	
 }
-.publisher p{
-	float: left;
-	width: 60%;
-	padding-left: 10rem;
+.publisher ul{
+	float: right;
+	width: 60%;	
+	padding: 1em 0 1em 2em;
+	list-style: none;
 }
 .publisher li{
 	text-align: left;
+	line-height: 1;
+	margin: .3em 0 .4em 0;
+	float: left;
+	width: 50%;
+}
+.publisher li:before{
+	content: "•";
+	color: #e7b836;
+	margin-right: .5em;
+}
+.publisher sup{
+	transform: translateY(-.3em);
+	display: inline-block;
 }
 footer{
 	font-size: 1.2em;
@@ -368,5 +383,27 @@ footer .inner{
 		width: 75%;
 		margin: 2rem 0;
 		max-height: 23vh;
+	}
+	.publisher {
+		padding-left: 0;
+	}
+	.publisher h1{
+		width: 100%;
+		clear: both;
+		float: none;
+		text-align: center;
+		border: none;
+		font-size: 1.4rem;
+	}
+	.publisher h1 br{
+		display: none;
+	}
+	.publisher ul{	
+		width: 100%;
+		float: none;
+		padding: 1em 0 1em 1em;		
+	}
+	.publisher li{
+		width: 100%;
 	}
 }
