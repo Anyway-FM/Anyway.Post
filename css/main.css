@@ -82,6 +82,9 @@ nav>span{
 	text-align: center;
 	line-height: 1.75;
 }
+.tagline br{
+	display: none;
+}
 .results .tagline{	
 	border: none;
 }
@@ -320,6 +323,14 @@ footer .inner{
     display: block;
 }
 /*~Small*/
+@media screen and (max-width: 1100px){
+	.tagline br{
+		display: block;
+	}
+	.publisher h1{
+		font-size: 2.5rem;
+	}
+}
 @media screen and (max-width: 1000px){
 	*,*:before{
 		font-family: 'Anyway Type', sans-serif !important;
@@ -403,7 +414,12 @@ footer .inner{
 		float: none;
 		padding: 1em 0 1em 1em;		
 	}
+}
+@media screen and (max-width: 600px){
 	.publisher li{
 		width: 100%;
+	}
+	.tagline br, .publisher br{
+		display: none;
 	}
 }
