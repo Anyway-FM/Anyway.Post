@@ -8,7 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link rel="shortcut icon" href="http://anyway-web.b0.upaiyun.com/images/favicon.png" />
-	<link rel="stylesheet" rev="stylesheet" href="build/main.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="assets/main.css" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="assets/fonts.css" type="text/css" media="all" />
 
 </head>
 <?php
@@ -24,9 +25,10 @@
 				fclose($logFile);
 				$content="
 					<h1>&nbsp&nbsp订阅成功！</h1>
-					感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ <br />
-					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ <br />
-					可以把我们的发件地址「<strong>hello@anyway.fm</strong>」加到邮箱的白名单中~
+					感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ <br /><br />
+					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ 建议在你的邮箱设置里面把以下三个域名 <strong>anyway.fm</strong>、<strong>tinyletter.com</strong>、 <strong>tinyletterapp.com</strong> 加到邮箱的白名单中以确保收到我们的邮件~
+					
+
 					<p><a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a></p>
 					";
 			}
@@ -50,7 +52,7 @@
 ?>
 <body>
 	<header class="responsive">
-		<img class="logo" src="build/anyway-post-logo.svg" alt="Anyway.Post 安妮薇邮报" />		
+		<img class="logo" src="assets/anyway-post-logo.svg" alt="Anyway.Post 安妮薇邮报" />		
 	</header>
 	
 	<nav class="responsive">

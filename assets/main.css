@@ -7,20 +7,15 @@
 	-webkit-tap-highlight-color: transparent;
 }
 @font-face {
-    font-family: 'Anyway Type';
-    src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff') format('woff'),
-	    	url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: fallback;
-}
-@font-face {
-    font-family: 'Anyway Type';
-	src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff') format('woff'),
-    		url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: fallback;    
+  font-family: 'Title Serif';
+  src: url('fonts/source-han-serif-sc.eot');
+  src:
+    url('fonts/source-han-serif-sc.eot?#font-spider') format('embedded-opentype'),
+    url('fonts/source-han-serif-sc.woff') format('woff'),
+    url('fonts/source-han-serif-sc.ttf') format('truetype'),
+    url('fonts/source-han-serif-sc.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
 }
 body{ 
 	text-rendering: optimizeLegibility;
@@ -31,6 +26,14 @@ body{
 	color: #585858;
 	text-align: center;
 	border-top: 8px solid #444;
+}
+.instructions,
+h2,
+h1,
+h2:before,
+.faq-details:before{
+/*	font-family:'Title Serif', 'Source Han Serif SC', 'Songti SC', 'STZhongsong', 'KaiTi', Simsun, serif;*/
+	font-family: 'Source Han Serif SC', 'Songti SC', 'STZhongsong', 'KaiTi', Simsun, serif;	
 }
 a{
 	color: #585858;
@@ -162,13 +165,8 @@ h3{
 	clear: both;
 	line-height: 1.75;
 }
-.instructions,
-h2,
-h1{
-	font-family: 'Songti SC', 'STZhongsong', 'KaiTi', Simsun, serif;
-}
 .instructions{
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 900;
 }
 .instructions span{
@@ -196,7 +194,7 @@ hr{
 	counter-reset: item;
 }
 h2{
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 900;
 	position: relative;
 	line-height: 2rem;
@@ -216,7 +214,6 @@ h2:before,
 	font-size: 1.2rem;
 	color: #e7b836;
 	top: -.1em;
-	font-family: 'Songti SC', 'Georgia', Simsun, serif;
 }
 h2:before{
 	content: "Q: ";
@@ -332,9 +329,6 @@ footer .inner{
 	}
 }
 @media screen and (max-width: 1000px){
-	*,*:before{
-		font-family: 'Anyway Type', sans-serif !important;
-	}
 	.mobile-hide{
 		display: none;
 	}

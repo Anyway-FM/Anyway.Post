@@ -1,10 +1,13 @@
 {
 	"dependencies": {
+	    "gulp": "*",
 		"gulp-clean-css": "*",
 		"gulp-load-plugins": "*",
 		"gulp-rename": "*",
 		"gulp-watch": "*",
 		"gulp-svgo": "*",
+		"gulp-font-spider": "*",
+	    "gulp-concat": "*",
 		"gulp-batch-replace": "*",
 		"gulp-htmlmin": "*"
 	}
