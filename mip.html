@@ -32,20 +32,20 @@
 	
 	<main class="responsive">
 		<section class="tagline"><h1>读者诸君你好，<br />欢迎订阅 Anyway.Post「安妮薇邮报」</h1>这是一份双周更新的由 Anyway.FM 发行的坊间小报。<br />我们在此为你提供与设计行业相关的职业信息、业内新闻以及视频等内容。</section>
-		<mip-form class="submit-form" action="result.php" method="get" url="//result.php">
-			<h3>立即订阅</h3>
-			<div class="instructions">
-				<label for="tlemail">
-				<span>1.</span> 填写邮件地址然后点击「提交」<br />
-				<span>2.</span> 然后就 OK 了，无需邮件确认<br />
-				</label>
-			</div>
-			<div class="subscribe"><input type="text" name="email" id="tlemail" class="input-box"/><input type="submit" value="提 交  ✓" class="btn"/></div>
-			
-			
-			<div class="form-desc">最后，建议在你的邮箱设置里面把以下三个域名 <strong>anyway.fm</strong>、<strong>tinyletter.com</strong>、 <strong>tinyletterapp.com</strong> 加到邮箱的白名单中以确保收到我们的邮件~</div>
+		
+		<h3 class="mip-form-target" target="email">立即订阅</h3>
+		<div class="mip-form-target instructions" target="email">
+			<span>1.</span> 填写邮件地址然后点击「提交」<br />
+			<span>2.</span> 然后就 OK 了，无需邮件确认<br />
+		</div>
+		
+		<div class="subscribe">
+			<mip-form class="submit-form" method="get" url="//anyway.fm/post/result.php">		
+				<input type="text" name="email" id="tlemail" class="input-box"/>
+				<input type="submit" value="提 交  ✓" class="btn"/>
+			</mip-form>
+		</div>
 
-		</mip-form>
 		
 		<section class="faq">
 				
@@ -102,6 +102,7 @@
 <mip-stats-baidu token="d6fc362c05908e5ce8d17df52dbc2586"></mip-stats-baidu>
 
 <script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script>
+<script src="https://mipcache.bdstatic.com/static/v1/mip-form/mip-form.js"></script>
 <script src="https://mipcache.bdstatic.com/static/v1/mip-stats-baidu/mip-stats-baidu.js"></script>
 
 </body>
