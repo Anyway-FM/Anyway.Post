@@ -8,7 +8,7 @@ var cdnUrl = [
 ];
 
 var fontUrl = [
-	[ 'fonts/', '' ]
+	[ 'fonts/', 'http://anyway-web.b0.upaiyun.com/anyway.post/' ]
 ];
  
 gulp.task('default', function() {
@@ -18,7 +18,6 @@ gulp.task('default', function() {
 
 	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
-//		.pipe(plugins.htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest('build'));
 		
 	gulp.src('assets/fonts/*.*')
@@ -32,9 +31,6 @@ gulp.task('default', function() {
 		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.batchReplace(fontUrl))
 		.pipe(plugins.cleanCss({compatibility: 'ie8'}))
-//		.pipe(plugins.rename({
-//		      suffix: '.min'
-//		    }))
 		.pipe(gulp.dest('build'));     
 });
 
