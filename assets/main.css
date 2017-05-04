@@ -21,7 +21,7 @@ body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	font-size: 62.5%;
-	font-family: 'Anyway Type', 'Microsoft YaHei', sans-serif;
+	font-family: 'Anyway Type', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 	background: #fff;
 	color: #585858;
 	text-align: center;
@@ -32,8 +32,7 @@ h2,
 h1,
 h2:before,
 .faq-details:before{
-/*	font-family:'Title Serif', 'Source Han Serif SC', 'Songti SC', 'STZhongsong', 'KaiTi', Simsun, serif;*/
-	font-family: 'Source Han Serif SC', 'Songti SC', 'STZhongsong', 'KaiTi', Simsun, serif;	
+	font-family: 'Title Serif', 'Songti SC', 'STZhongsong', Simsun, serif;	
 }
 a{
 	color: #585858;
