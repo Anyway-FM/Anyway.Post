@@ -4,4 +4,4 @@ node_modules
 address.txt
 *.sketch
 source/
-build/
+build
