@@ -212,10 +212,11 @@ h2:before,
 	font-weight: 300;
 	font-size: 1.2rem;
 	color: #e7b836;
-	top: -.1em;
+	top: -.27em;
 }
 h2:before{
 	content: "Q: ";
+	top: -.1em;
 }
 /*~Publisher*/
 .publisher{
