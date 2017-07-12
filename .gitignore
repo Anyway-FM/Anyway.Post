@@ -4,7 +4,7 @@ node_modules
 address.txt
 *.sketch
 source/
-build
+builds
 assets/fonts/source-han-serif-sc.eot
 assets/fonts/source-han-serif-sc.eot
 assets/fonts/source-han-serif-sc.woff
