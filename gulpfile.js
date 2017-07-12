@@ -18,20 +18,20 @@ gulp.task('default', function() {
 
 	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
-		.pipe(gulp.dest('build'));
+		.pipe(gulp.dest('builds'));
 		
 	gulp.src('assets/fonts/*.*')
-	        .pipe(gulp.dest('build'));
+	        .pipe(gulp.dest('builds'));
 	
 	gulp.src('*.svg')
 	        .pipe(plugins.svgo())
-	        .pipe(gulp.dest('build'));
+	        .pipe(gulp.dest('builds'));
 	
 	gulp.src(['assets/*.css','!assets/*.min.css'])
 		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.batchReplace(fontUrl))
 		.pipe(plugins.cleanCss({compatibility: 'ie8'}))
-		.pipe(gulp.dest('build'));     
+		.pipe(gulp.dest('builds'));     
 });
 
 gulp.task('watch', function() {
