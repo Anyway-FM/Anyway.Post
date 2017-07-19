@@ -14,14 +14,14 @@
     url('fonts/source-han-serif-sc.woff') format('woff'),
     url('fonts/source-han-serif-sc.ttf') format('truetype'),
     url('fonts/source-han-serif-sc.svg') format('svg');
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
 }
 body{ 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	font-size: 62.5%;
-	font-family: 'Anyway Type', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+	font-family: 'Anyway Type', 'PingFang SC', 'Microsoft YaHei', sans-serif;
 	background: #fff;
 	color: #585858;
 	text-align: center;
@@ -32,7 +32,7 @@ h2,
 h1,
 h2:before,
 .faq-details:before{
-	font-family: 'Title Serif', 'Songti SC', 'STZhongsong', Simsun, serif;	
+	font-family: 'Calluna Web', 'Title Serif', 'Songti SC', 'STZhongsong', Simsun, serif;	
 }
 a{
 	color: #585858;
@@ -42,7 +42,7 @@ a:visited{
 	color: #585858;
 }	
 a:hover{
-	color: #e7b836;
+	color: #ffe324;
 }
 .responsive{
 	margin: .2em auto;
@@ -93,7 +93,7 @@ nav>span{
 h1{
 	font-size: 2.5rem;
 	line-height: 1.22;
-	font-weight: 900;
+	font-weight: 700;
 	margin-bottom: .2em;
 }
 .results h1{
@@ -144,21 +144,22 @@ h3{
 }
 .input-box:hover,
 .input-box:active{
-	border-color: #e7b836;
+	border-color: #ffe324;
 }
 .subscribe .btn{
 	width: 30%;
-	background: #e7b836;
+	background: #555;
 	color: #fff;
-	border: 1px solid #e7b836;
+	border: 1px solid #555;
 	border-left: none;
 	text-align: center;
 	font-weight: 900;
 	cursor: pointer;
 }
 .btn:hover{
-	background: #777;
-	border-color: #777;
+	background: #ffe324;
+	border-color: #ffe324;
+	color: #222;
 }
 .form-desc{
 	clear: both;
@@ -166,17 +167,17 @@ h3{
 }
 .instructions{
 	font-size: 1.6rem;
-	font-weight: 900;
+	font-weight: 700;
 }
 .instructions span{
-	color: #e7b836;
-	font-weight: 300;
+	color: #ffe324;
+	font-weight: 700;
 }
 hr{
 	width: 30%;
 	margin: 3em auto;
 	border: none;
-	background: #e7b836;
+	background: #ffe324;
 	display: block;
 	height: 2px;
 }
@@ -194,7 +195,7 @@ hr{
 }
 h2{
 	font-size: 1.6rem;
-	font-weight: 900;
+	font-weight: 700;
 	position: relative;
 	line-height: 2rem;
 }
@@ -209,10 +210,10 @@ h2:before,
 	content: "A: ";
 	position: absolute;
 	left: -1.8rem;
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 1.2rem;
-	color: #e7b836;
-	top: -.27em;
+	color: #ffe324;
+	top: -.08em;
 }
 h2:before{
 	content: "Q: ";
@@ -251,7 +252,7 @@ h2:before{
 }
 .publisher li:before{
 	content: "•";
-	color: #e7b836;
+	color: #ffe324;
 	margin-right: .5em;
 }
 .publisher sup{
