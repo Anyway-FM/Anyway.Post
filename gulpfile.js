@@ -23,7 +23,7 @@ gulp.task('default', function() {
 	gulp.src('assets/fonts/*.*')
 	        .pipe(gulp.dest('builds'));
 	
-	gulp.src('*.svg')
+	gulp.src('assets/*.svg')
 	        .pipe(plugins.svgo())
 	        .pipe(gulp.dest('builds'));
 	
