@@ -49,8 +49,9 @@ gulp.task('md', function() {
 	var htmlTheme = [
 		[ '<a href', '<a style=\"color:#f60c3e !important;\" href' ],
 		[ '<p', '<p style=\"color:#555 !important;font-size:14px;\"' ],
-		[ '<li', '<li style=\"color:#555 !important;font-size:14px;\"' ],
-		[ '<h1 ', '<h1 style=\"color:#333;font-weight:700 !important;font-size:1.5em;margin-top:2em;\" ' ]
+		[ '<li', '<li style=\"color:#555 !important;font-size:14px !important;\"' ],
+		[ '<ul', '<ul style=\"margin:0 !important;-webkit-padding-start:0;\"' ],
+		[ '<h1 ', '<h1 style=\"color:#333;font-weight:700 !important;font-size:1.5em;margin-top:2em;-webkit-margin-after:0;\" ' ]
 	];
 	
 	gulp.src('Posts/HTML/*.html')
