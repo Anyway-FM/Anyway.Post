@@ -48,14 +48,17 @@ gulp.task('md', function() {
 	
 	var htmlTheme = [
 		[ '<a href', '<a style=\"color:#f60c3e !important;\" href' ],
-		[ '<p', '<p style=\"color:#555 !important;font-size:14px;line-height:1.8;\"' ],
+		[ '<p', '<div style=\"color:#555;font-size:14px;line-height:1.8;\"' ],
+		[ '</p>', '</div>' ],
 		[ '<img ', '<img style=\"max-width:100%;\" ' ],
 		[ '<li', '<li style=\"color:#555 !important;font-size:14px !important;\"' ],
 		[ '<ul', '<ul style=\"margin:0 !important;list-style-position:inside !important;\"' ],
 		[ '<ol', '<ol style=\"margin:0 !important;list-style-position:inside !important;\"' ],
 		[ '<blockquote', '<blockquote style=\"border-left:4px solid #f60c3e; padding-left:.6em;\"' ],
-		[ '<h1 ', '<h1 style=\"color:#333;font-weight:700 !important;font-size:1.25em;margin-top:3em;\" ' ],
-		[ '<h2 ', '<h2 style=\"color:#333;font-weight:700 !important;font-size:1em;margin-top:3em;\" ' ]
+		[ '<h1', '<div style=\"color:#333;font-weight:700 !important;font-size:1.25em;margin-top:3em;\"' ],
+		[ '</h1>', '</div>' ],
+		[ '<h2', '<div style=\"color:#333;font-weight:700 !important;font-size:1em;margin-top:3em;\"' ],
+		[ '</h2>', '</div>' ]
 	];
 	
 	gulp.src('Posts/HTML/*.html')
