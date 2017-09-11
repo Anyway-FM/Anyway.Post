@@ -48,16 +48,19 @@ gulp.task('md', function() {
 	
 	var htmlTheme = [
 		[ '<a href', '<a style=\"color:#f60c3e !important;\" href' ],
-		[ '<p', '<div style=\"color:#555;font-size:14px;line-height:1.8;\"' ],
+		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1em;margin-bottom:1.7em;\"' ],
 		[ '</p>', '</div>' ],
-		[ '<img ', '<img style=\"max-width:100%;\" ' ],
-		[ '<li', '<li style=\"color:#555 !important;font-size:14px !important;\"' ],
-		[ '<ul', '<ul style=\"margin:0 !important;list-style-position:inside !important;\"' ],
-		[ '<ol', '<ol style=\"margin:0 !important;list-style-position:inside !important;\"' ],
+		[ '<img ', '<img style=\"max-width:100%;\" ' ],		
+		[ '<ul', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
+		[ '</ul>', '</div>' ],
+		[ '<ol', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
+		[ '</ol>', '</div>' ],
+		[ '<li>', '<div>- ' ],
+		[ '</li>', '</div>' ],
 		[ '<blockquote', '<blockquote style=\"border-left:4px solid #f60c3e; padding-left:.6em;\"' ],
-		[ '<h1', '<div style=\"color:#333;font-weight:700 !important;font-size:1.25em;margin-top:3em;\"' ],
+		[ '<h1', '<div style=\"color:#333 !important;font-weight:700;font-size:1.25em;margin-top:3.5em;margin-bottom:.1em;font-family:Avenir Next,sans-serif;\"' ],
 		[ '</h1>', '</div>' ],
-		[ '<h2', '<div style=\"color:#333;font-weight:700 !important;font-size:1em;margin-top:3em;\"' ],
+		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;font-family:Avenir Next,sans-serif;\"' ],
 		[ '</h2>', '</div>' ]
 	];
 	
