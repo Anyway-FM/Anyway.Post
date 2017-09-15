@@ -13,7 +13,7 @@ var fontUrl = [
  
 gulp.task('default', function() {
 
-	gulp.src(['index.html','*.php'])
+	gulp.src(['index.html','result.php'])
 		.pipe(plugins.fontSpider({ignore: ['assets/fonts.css']}));
 
 	gulp.src(['*.html','*.php'])
