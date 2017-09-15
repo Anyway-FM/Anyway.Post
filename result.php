@@ -25,11 +25,11 @@
 				fclose($logFile);
 				$content="
 					<h1>&nbsp&nbsp订阅成功！</h1>
-					感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ <br /><br />
-					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ 建议在你的邮箱设置里面把以下三个域名 <strong>anyway.fm</strong>、<strong>tinyletter.com</strong>、 <strong>tinyletterapp.com</strong> 加到邮箱的白名单中以确保收到我们的邮件~
+					<p>感谢你的支持~ <strong> " . $email . " </strong> 已经加入订阅列表中了，敬请期待下一期的发布~ 第 12 期开始的过往内容可<a href='https://github.com/JJYing/Anyway-Post/tree/master/Posts/Markdown' target='_blank'>在此查看</a>。<br /><br />
+					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ 建议在你的邮箱设置里面把以下三个域名 <strong>anyway.fm</strong>、<strong>tinyletter.com</strong>、<strong>tinyletterapp.com</strong> 加到邮箱的白名单中以确保收到我们的邮件~</p>
 					
 
-					<p><a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a></p>
+					<a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a>
 					";
 			}
 		}
