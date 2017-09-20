@@ -48,7 +48,7 @@ gulp.task('md', function() {
 	
 	var htmlTheme = [
 		[ '<a href', '<a style=\"color:#f60c3e !important;\" href' ],
-		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1em;margin-bottom:1.7em;\"' ],
+		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1.2em;margin-bottom:1.5em;\"' ],
 		[ '</p>', '</div>' ],
 		[ '<img ', '<img style=\"max-width:100%;\" ' ],		
 		[ '<ul', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
@@ -57,11 +57,13 @@ gulp.task('md', function() {
 		[ '</ol>', '</div>' ],
 		[ '<li>', '<div>- ' ],
 		[ '</li>', '</div>' ],
-		[ '<blockquote', '<blockquote style=\"border-left:4px solid #f60c3e; padding-left:.6em;\"' ],
-		[ '<h1', '<div style=\"color:#333 !important;font-weight:700;font-size:1.25em;margin-top:3.5em;margin-bottom:.1em;font-family:Avenir Next,sans-serif;\"' ],
+		[ '<blockquote', '<blockquote style=\"border-left:4px solid #ffe324; padding-left:.6em;\"' ],
+		[ '<h1', '<div style=\"margin: 5em 0 .7em;background-color:#ffe324;width:.8em;height:.8em;\"></div><div style=\"color:#333 !important;font-weight:700;font-size:1.25em;margin-top:0em;margin-bottom:0;\"' ],
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;font-family:Avenir Next,sans-serif;\"' ],
-		[ '</h2>', '</div>' ]
+		[ '</h2>', '</div>' ],
+		[ '<h3', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.3;\"' ],
+		[ '</h3>', '</div>' ]
 	];
 	
 	gulp.src('Posts/HTML/*.html')
