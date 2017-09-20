@@ -47,7 +47,7 @@ gulp.task('md', function() {
 	});
 	
 	var htmlTheme = [
-		[ '<a href', '<a style=\"color:#f60c3e !important;\" href' ],
+		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:1px solid #666;\" href' ],
 		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1.2em;margin-bottom:1.5em;\"' ],
 		[ '</p>', '</div>' ],
 		[ '<img ', '<img style=\"max-width:100%;\" ' ],		
@@ -62,7 +62,7 @@ gulp.task('md', function() {
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;\"' ],
 		[ '</h2>', '</div>' ],
-		[ '<h3', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.3;\"' ],
+		[ '<h3', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.38;\"' ],
 		[ '</h3>', '</div>' ]
 	];
 	
