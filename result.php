@@ -56,9 +56,9 @@
 	</header>
 	
 	<nav class="responsive">
-		<span class="nav-1">訂閱費 $0.00</span>
-		<span class="nav-2">創刊於二〇一七年二月</span>
-		<span class="nav-3">Anyway.FM<span class="mobile-hide"> 旗下產品</span></span>
+		<span class="nav-1">订阅费 ￥0.00</span>
+		<span class="nav-2">创刊于二〇一七年二月</span>
+		<span class="nav-3">Anyway.FM<span class="mobile-hide"> 旗下产品</span></span>
 	</nav>
 	
 	<main class="responsive">
@@ -69,7 +69,7 @@
 	
 	<footer class="responsive">
 		<div class="inner">
-			© 2017 <a href="http://anyway.fm">Anyway.FM</a> 保留所有權利</a>
+			© 2017 <a href="http://anyway.fm">Anyway.FM</a> 保留所有权利</a>
 		</div>
 	</footer>
 	<div class="badget">

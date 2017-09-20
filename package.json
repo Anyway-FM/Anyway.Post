@@ -8,6 +8,7 @@
 		"gulp-svgo": "*",
 		"gulp-font-spider": "*",
 	    "gulp-concat": "*",
+	    "gulp-word-count": "*",
 		"gulp-batch-replace": "*",
 		"gulp-htmlmin": "*"
 	}
