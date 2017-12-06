@@ -7,7 +7,7 @@
 	<meta name="description" content="来自 Anyway.FM 的双周发行邮件组，内容包括设计行业相关的职业信息、业内新闻等" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
-	<link rel="shortcut icon" href="http://anyway-web.b0.upaiyun.com/images/favicon.png" />
+	<link rel="shortcut icon" href="https://anyway-web.b0.upaiyun.com/images/favicon.png" />
 	<link rel="stylesheet" rev="stylesheet" href="assets/main.css" type="text/css" media="all" />
 	<link rel="stylesheet" rev="stylesheet" href="assets/fonts.css" type="text/css" media="all" />
 
@@ -29,7 +29,7 @@
 					友情提示：因为所使用邮件组服务的局限性，有时候也有可能会出现在垃圾邮箱里哦~ 建议在你的邮箱设置里面把以下三个域名 <strong>anyway.fm</strong>、<strong>tinyletter.com</strong>、<strong>tinyletterapp.com</strong> 加到邮箱的白名单中以确保收到我们的邮件~</p>
 					
 
-					<a href='http://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a>
+					<a href='https://Anyway.FM' class='go-back'>☜ 返回 Anyway.FM 官网</a>
 					";
 			}
 		}
@@ -69,7 +69,7 @@
 	
 	<footer class="responsive">
 		<div class="inner">
-			© 2017 <a href="http://anyway.fm">Anyway.FM</a> 保留所有权利</a>
+			© 2017 <a href="https://anyway.fm">Anyway.FM</a> 保留所有权利</a>
 		</div>
 	</footer>
 	<div class="badget">
