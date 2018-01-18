@@ -1,16 +1,16 @@
 var gulp = require('gulp'),
 	gulpLoadPlugins = require('gulp-load-plugins'),
     plugins = gulpLoadPlugins();
- 
+
 var cdnUrl = [
 	[ '<link rel=\"stylesheet\" rev=\"stylesheet\" href=\"assets/fonts.css\" type=\"text/css\" media=\"all\" />', '' ],
-	[ 'assets/', 'https://anyway-web.b0.upaiyun.com/anyway.post/' ]
+	[ 'assets/', 'https://anw.red/anyway.post/' ]
 ];
 
 var fontUrl = [
-	[ 'fonts/', 'https://anyway-web.b0.upaiyun.com/anyway.post/' ]
+	[ 'fonts/', 'https://anw.red/anyway.post/' ]
 ];
- 
+
 gulp.task('default', function() {
 
 	gulp.src(['index.html','result.php'])
@@ -19,25 +19,25 @@ gulp.task('default', function() {
 	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
 		.pipe(gulp.dest('builds'));
-		
+
 	gulp.src('assets/fonts/*.*')
 	        .pipe(gulp.dest('builds'));
-	
+
 	gulp.src('assets/*.svg')
 	        .pipe(plugins.svgo())
 	        .pipe(gulp.dest('builds'));
-	
+
 	gulp.src(['assets/*.css','!assets/*.min.css'])
 		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.batchReplace(fontUrl))
 		.pipe(plugins.cleanCss({compatibility: 'ie8'}))
-		.pipe(gulp.dest('builds'));     
+		.pipe(gulp.dest('builds'));
 });
 
 gulp.task('md', function() {
 	var mds = require('markdown-styles'),
 	    path = require('path');
-	
+
 	mds.render(mds.resolveArgs({
 	  input: path.normalize(process.cwd() + '/Posts/Markdown'),
 	  output: path.normalize(process.cwd() + '/Posts/HTML'),
@@ -45,12 +45,12 @@ gulp.task('md', function() {
 	}), function() {
 	  console.log('All done!');
 	});
-	
+
 	var htmlTheme = [
 		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:1px solid #666;\" href' ],
 		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1.2em;margin-bottom:1.5em;\"' ],
 		[ '</p>', '</div>' ],
-		[ '<img ', '<img style=\"max-width:100%;\" ' ],		
+		[ '<img ', '<img style=\"max-width:100%;\" ' ],
 		[ '<ul', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
 		[ '</ul>', '</div>' ],
 		[ '<ol', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
@@ -66,11 +66,11 @@ gulp.task('md', function() {
 		[ '<h3', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.38;\"' ],
 		[ '</h3>', '</div>' ]
 	];
-	
+
 	gulp.src('Posts/HTML/*.html')
 		.pipe(plugins.batchReplace(htmlTheme))
 		.pipe(gulp.dest('posts/HTML/'));
-	
+
  });
 
 
