@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'Anyway Type';
-    src: url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff2') format('woff2'),
-	    	url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff') format('woff');
+    src: url('https://anw.red/font/calluna-sans-regular.woff2') format('woff2'),
+	    	url('https://anw.red/font/calluna-sans-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Anyway Type';
-	src: url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff2') format('woff2'),
-    		url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff') format('woff');
+	src: url('https://anw.red/font/calluna-sans-bold.woff2') format('woff2'),
+    		url('https://anw.red/font/calluna-sans-bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-    font-display: fallback;    
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Calluna Web';
-	src: url('https://anyway-web.b0.upaiyun.com/font/calluna-bold.eot') format('eot'),
-			url('https://anyway-web.b0.upaiyun.com/font/calluna-bold.woff2') format('woff2'),
-    		url('https://anyway-web.b0.upaiyun.com/font/calluna-bold.woff') format('woff');
+	src: url('https://anw.red/font/calluna-bold.eot') format('eot'),
+			url('https://anw.red/font/calluna-bold.woff2') format('woff2'),
+    		url('https://anw.red/font/calluna-bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-    font-display: fallback;    
+    font-display: fallback;
 }
