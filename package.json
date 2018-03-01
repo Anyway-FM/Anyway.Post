@@ -1,14 +1,15 @@
 {
 	"dependencies": {
-	    "gulp": "*",
+    "gulp": "*",
 		"gulp-clean-css": "*",
 		"gulp-load-plugins": "*",
 		"gulp-rename": "*",
 		"gulp-watch": "*",
 		"gulp-svgo": "*",
 		"gulp-font-spider": "*",
-	    "gulp-concat": "*",
-	    "gulp-word-count": "*",
+    "gulp-concat": "*",
+		"markdown-styles": "*",
+    "gulp-word-count": "*",
 		"gulp-batch-replace": "*",
 		"gulp-htmlmin": "*"
 	}
