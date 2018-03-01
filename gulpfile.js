@@ -50,7 +50,7 @@ gulp.task('md', function() {
 		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:1px solid #666;\" href' ],
 		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1.2em;margin-bottom:1.5em;\"' ],
 		[ '</p>', '</div>' ],
-		[ '<img ', '<img style=\"max-width:100%;\" ' ],
+		[ '<img ', '<img width=\"100%\" style=\"max-width:100%;\" ' ],
 		[ '<ul', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
 		[ '</ul>', '</div>' ],
 		[ '<ol', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
