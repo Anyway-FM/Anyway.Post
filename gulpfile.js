@@ -21,11 +21,11 @@ gulp.task('default', function() {
 		.pipe(gulp.dest('builds'));
 
 	gulp.src('assets/fonts/*.*')
-	        .pipe(gulp.dest('builds'));
+  	.pipe(gulp.dest('builds'));
 
 	gulp.src('assets/*.svg')
-	        .pipe(plugins.svgo())
-	        .pipe(gulp.dest('builds'));
+    .pipe(plugins.svgo())
+    .pipe(gulp.dest('builds'));
 
 	gulp.src(['assets/*.css','!assets/*.min.css'])
 		.pipe(plugins.concat('main.css'))
