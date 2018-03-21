@@ -1,5 +1,5 @@
 *{
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 	outline: none;
@@ -17,7 +17,7 @@
   font-weight: 700;
   font-style: normal;
 }
-body{ 
+body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	font-size: 62.5%;
@@ -32,7 +32,7 @@ h2,
 h1,
 h2:before,
 .faq-details:before{
-	font-family: 'Calluna Web', 'Title Serif', 'Songti SC', 'STZhongsong', Simsun, serif;	
+	font-family: 'Calluna Web', 'Title Serif', 'Songti SC', 'STZhongsong', Simsun, serif;
 }
 a{
 	color: #585858;
@@ -42,7 +42,7 @@ a{
 }
 a:visited{
 	color: #585858;
-}	
+}
 a:hover{
 	color: #222;
 	border-bottom: 1px solid #222;
@@ -80,7 +80,7 @@ nav>span{
 .nav-3{
 	text-align: right;
 }
-.tagline{		
+.tagline{
 	border-bottom: 1px solid #777;
 	padding: 2em 0;
 	margin-bottom: 1em;
@@ -120,9 +120,9 @@ h1{
 	float: right;
 }
 .results .submit-form{
-    float: none;
-    margin: 0 auto;
-    padding: 0;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
 }
 h3{
 	font-size: .75rem;
@@ -140,7 +140,7 @@ h3{
 	border: 1px solid #aaa;
 	border-radius: 0;
 	height: 2.4em;
-	font-size: 1em;		
+	font-size: 1em;
 	float: left;
 	display: block;
 	transition: all .1s ease-in;
@@ -223,9 +223,20 @@ h2:before,
 	position: absolute;
 	left: -1.8rem;
 	font-weight: 700;
-	font-size: 1.2rem;
-	color: #ffe324;
+	font-size: .8rem;
 	top: -.08em;
+
+	background: #ffe324;
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	text-align: center;
+	border-radius: .6rem;
+
+	padding: .05rem .1rem .15rem;
+	-moz-font-feature-settings: 'tnum';
+	-webkit-font-feature-settings: 'tnum';
+	font-feature-settings: 'lnum';
 }
 h2:before{
 	content: "Q: ";
@@ -247,11 +258,11 @@ h2:before{
 	line-height: 1;
 	padding: .2em 0;
 	margin: 0;
-	border-right: 1px dotted #777;	
+	border-right: 1px dotted #777;
 }
 .publisher ul{
 	float: right;
-	width: 60%;	
+	width: 60%;
 	padding: 1em 0 1em 2em;
 	list-style: none;
 }
@@ -276,6 +287,7 @@ footer{
 	clear: both;
 	border-bottom: 3px solid #777;
 	margin-bottom: 4em !important;
+	text-transform: uppercase;
 }
 footer .inner{
 	padding: .7em;
@@ -284,24 +296,35 @@ footer .inner{
 	margin-bottom: .2em;
 }
 .badget{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 7.5%;
+	z-index: 999;
 }
 .badget .inner{
 	position: relative;
-	background: #444;
-	color: #fff;
+	background: #ffe324;
+	color: #333;
 	padding: .5em 1em;
 	font-size: .5em;
 	width: 9em;
 	text-align: center;
 	line-height: 1.4;
+	display: flex;
+	flex-direction: column;
 }
-.badget .inner span{
-	float: left;
-	width: 25%;
+.badget .inner > div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.badget .inner > div span{
 	text-align: center;
+	font-size: 5em;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1.3;
 }
 .badget .inner:after {
 	content: "";
@@ -315,23 +338,46 @@ footer .inner{
 	border-right: 5em solid transparent;
 }
 .badget p{
-	font-size: 5em;
 	text-align: justify;
-	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 1.3;
-}
-.badget i{
-	opacity: 0;
+	width: 100%;
+	margin-bottom: 1.2em;
 }
 /*~Results Page*/
 .go-back{
-    font-size: 1.5em;
-    font-weight: 700;
-    text-decoration: none;
-    margin: 2em auto 1.2em;
-    display: inline-block;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 2em auto 1.2em;
+  display: inline-block;
 }
+/* ~Edges */
+.mask{
+	position: fixed;
+	z-index: 99;
+	border: .4rem solid #ffe324;
+	background: #ffe324;
+}
+.mt, .mb{
+	height: 0;
+	width: 100%;
+	left: 0;
+}
+.mb{
+	bottom: -20rem;
+	height: 20.8rem;
+}
+.mt{
+	top: -20rem;
+	height: 20.8rem;
+}
+.mv{
+	bottom: 0;
+	height: 999em;
+	width: 0;
+}
+.ml, .ml2{left: -20rem;width: 20.8rem;}
+.mr, .mr2{right: -20rem;width: 20.8rem;}
+.ml2, .mr2{bottom: none;top: 0;}
 /*~Small*/
 @media screen and (max-width: 1100px){
 	.tagline br{
@@ -416,10 +462,10 @@ footer .inner{
 	.publisher h1 br{
 		display: none;
 	}
-	.publisher ul{	
+	.publisher ul{
 		width: 100%;
 		float: none;
-		padding: 1em 0 1em 1em;		
+		padding: 1em 0 1em 1em;
 	}
 }
 @media screen and (max-width: 600px){
