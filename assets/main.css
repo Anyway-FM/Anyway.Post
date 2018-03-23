@@ -181,10 +181,6 @@ h3{
 	font-size: 1.6rem;
 	font-weight: 700;
 }
-.instructions span{
-	color: #ffe324;
-	font-weight: 700;
-}
 hr{
 	width: 30%;
 	margin: 3em auto;
@@ -215,31 +211,25 @@ h2{
 	font-size: 1rem;
 	line-height: 1.75;
 	margin: .4em 0 0;
-	position: relative;
 }
-h2:before,
-.faq-details:before{
-	content: "A: ";
-	position: absolute;
-	left: -1.8rem;
+.bullet-icon{
 	font-weight: 700;
 	font-size: .8rem;
-	top: -.08em;
-
 	background: #ffe324;
-	display: inline-block;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: -.4em;
 	width: 1.2rem;
 	height: 1.2rem;
 	text-align: center;
 	border-radius: .6rem;
-
-	padding: .05rem .1rem .15rem;
 	-moz-font-feature-settings: 'tnum';
 	-webkit-font-feature-settings: 'tnum';
 	font-feature-settings: 'lnum';
 }
-h2:before{
-	content: "Q: ";
+.faq-details .bullet-icon{
 	top: -.1em;
 }
 /*~Publisher*/
