@@ -25,7 +25,7 @@ body{
 	background: #fff;
 	color: #585858;
 	text-align: center;
-	border-top: 8px solid #444;
+	margin: 1.6rem .5rem;
 }
 .instructions,
 h2,
@@ -191,7 +191,7 @@ hr{
 }
 .faq{
 	text-align: left;
-	padding: 2rem 3em 0rem 3em;
+	padding: 2rem 3em 0rem 0;
 	width: 61%;
 	float: left;
 	border-right: 1px dotted #777;
@@ -344,11 +344,9 @@ footer .inner{
 .mask{
 	position: fixed;
 	z-index: 99;
-	border: .4rem solid #ffe324;
 	background: #ffe324;
 }
 .mt, .mb{
-	height: 0;
 	width: 100%;
 	left: 0;
 }
@@ -376,6 +374,8 @@ footer .inner{
 	.publisher h1{
 		font-size: 2.5rem;
 	}
+	.mb, .mt{height: 20.4rem;}
+	.ml, .ml2, .mr, .mr2{width: 20.4rem;}
 }
 @media screen and (max-width: 1000px){
 	.mobile-hide{
@@ -412,7 +412,7 @@ footer .inner{
 		padding: 2rem 0em 0em 0em;
 	}
 	.faq-item{
-		padding-left: 2rem;
+		padding-left: 0;
 	}
 	h1{
 		font-size: 1.4rem;
@@ -439,7 +439,7 @@ footer .inner{
 		max-height: 23vh;
 	}
 	.publisher {
-		padding-left: 0;
+		padding: 2rem 0;
 	}
 	.publisher h1{
 		width: 100%;
