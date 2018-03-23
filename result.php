@@ -72,14 +72,17 @@
 			© 2017 <a href="https://anyway.fm">Anyway.FM</a> 保留所有权利</a>
 		</div>
 	</footer>
-	<div class="badget">
-		<div class="inner">
-			<p><span>F</span><span>R</span><span>E</span><span>E</span></p>
-			Till Hell Freezes<br /><i>and</i>
-		</div>
-	</div>
 
 	<div class="mask mt"></div><div class="mask mb"></div><div class="mask mv ml"></div><div class="mask mv mr"></div><div class="mask mv ml2"></div><div class="mask mv mr2"></div>
+
+	<div class="badget">
+		<div class="inner">
+			<div>
+				<span>F</span><span>R</span><span>E</span><span>E</span>
+			</div>
+			<p>Till Hell Freezes</p>
+		</div>
+	</div>
 
 <!-- ~Baidu Analytics -->
 <script>
