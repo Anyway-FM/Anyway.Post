@@ -242,7 +242,7 @@ h2{
 }
 .publisher h1{
 	float: left;
-	width: 40%;
+	width: 35%;
 	text-align: left;
 	font-size: 3rem;
 	line-height: 1;
@@ -252,7 +252,7 @@ h2{
 }
 .publisher ul{
 	float: right;
-	width: 60%;
+	width: 64%;
 	padding: 1em 0 1em 2em;
 	list-style: none;
 }
