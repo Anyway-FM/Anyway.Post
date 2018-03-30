@@ -3,8 +3,9 @@
 
 一份双周更新的由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报。我们在此为你提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。第 12 期开始的[往期内容在此](https://github.com/JJYing/Anyway-Post/tree/master/Posts/Markdown)：
 
-| 期数| 发送日期 | 专栏内容 |
+| 期数| 发送日期 | 特别内容 |
 |:--|:--|:--|
+| [第 24 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2324.md) | 2018 年 3 月 29 日 | 招小姐姐啦~ |
 | [第 23 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2323.md) | 2018 年 3 月 16 日 | 软影像 #2：我爱 OLYMPUS |
 | [第 22 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2322.md) | 2018 年 3 月 1 日 | 图标漫步（八）：穿越了半个世纪的小轿车 |
 | [第 21 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2321.md) | 2018 年 2 月 2 日 | 软影像 #1：礼昂的相机那点事 |
