@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/JJYing/Anyway-Post/master/assets/anyway-post-logo.png)
 
 
-一份双周更新的由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报。我们在此为你提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。第 12 期开始的[往期内容在此](https://github.com/JJYing/Anyway-Post/tree/master/Posts/Markdown)：
+一份双周更新的由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报，创刊于 2017 年 2 月。我们在此为你提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。第 12 期开始的[往期内容在此](https://github.com/JJYing/Anyway-Post/tree/master/Posts/Markdown)：
 
 | 期数| 发送日期 | 特别内容 |
 |:--|:--|:--|
