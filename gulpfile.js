@@ -58,7 +58,7 @@ gulp.task('md', function() {
 		[ '<li>', '<div>- ' ],
 		[ '</li>', '</div>' ],
 		[ '<hr>', '' ],
-		[ '<blockquote', '<blockquote style=\"border-left:4px solid #ffe324; padding-left:.6em;\"' ],
+		[ '<blockquote', '<blockquote style=\"border-left:4px solid #ffe324; padding-left:.6em;font-style:normal;\"' ],
 		[ '<h1', '<div style=\"margin: 5em 0 .7em;background-color:#ffe324;width:.8em;height:.8em;\"></div><div style=\"color:#333 !important;font-weight:700;font-size:1.25em;margin-top:0em;margin-bottom:0;\"' ],
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;\"' ],
