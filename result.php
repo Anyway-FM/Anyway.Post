@@ -7,7 +7,12 @@
 	<meta name="description" content="来自 Anyway.FM 的双周发行邮件组，内容包括设计行业相关的职业信息、业内新闻等" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<link rel="shortcut icon" href="https://anyway-web.b0.upaiyun.com/images/favicon.png" />
+	<link rel="icon" href="https://s.anw.red/anyway.fm/favicon-16.png" sizes="16x16">
+	<link rel="icon" href="https://s.anw.red/anyway.fm/favicon-32.png" sizes="32x32">
+	<link rel="icon" href="https://s.anw.red/anyway.fm/favicon-96.png" sizes="96x96">
+	<link rel="apple-touch-icon" href="https://s.anw.red/anyway.fm/apple-touch-icon-precomposed.png">
+	<link rel="mask-icon" href="https://s.anw.red/anyway.fm/mask-icon.svg" color="#ffe324">
+	
 	<link rel="stylesheet" rev="stylesheet" href="assets/main.css" type="text/css" media="all" />
 	<link rel="stylesheet" rev="stylesheet" href="assets/fonts.css" type="text/css" media="all" />
 

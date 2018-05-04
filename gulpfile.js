@@ -4,11 +4,11 @@ var gulp = require('gulp'),
 
 var cdnUrl = [
 	[ '<link rel=\"stylesheet\" rev=\"stylesheet\" href=\"assets/fonts.css\" type=\"text/css\" media=\"all\" />', '' ],
-	[ 'assets/', 'https://anw.red/anyway.post/' ]
+	[ 'assets/', 'https://s.anw.red/anyway.post/' ]
 ];
 
 var fontUrl = [
-	[ 'fonts/', 'https://anw.red/anyway.post/' ]
+	[ 'fonts/', 'https://s.anw.red/anyway.post/' ]
 ];
 
 gulp.task('default', function() {
