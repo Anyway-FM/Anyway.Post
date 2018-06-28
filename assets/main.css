@@ -20,6 +20,7 @@
 body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	font-size: 62.5%;
 	font-family: 'Anyway Type', 'PingFang SC', 'Microsoft YaHei', sans-serif;
 	background: #fff;
@@ -57,8 +58,8 @@ header{
 	border-bottom: 3px solid #777;
 }
 .logo{
-	width: 40%;
-	margin: 3rem 0;
+	width: 50%;
+	margin: 5rem 0 3rem;
 	max-height: 30vh;
 }
 nav{
@@ -70,7 +71,7 @@ nav{
 	padding: .5em 0;
 	overflow:hidden;
 }
-nav>span{
+nav > span{
 	width: 33.33%;
 	float: left;
 }
@@ -82,7 +83,7 @@ nav>span{
 }
 .tagline{
 	border-bottom: 1px solid #777;
-	padding: 2em 0;
+	padding: 3em 0;
 	margin-bottom: 1em;
 	font-size: 1rem;
 	text-align: center;
@@ -113,7 +114,7 @@ h1{
 }
 .submit-form{
 	font-size: 1rem;
-	padding: 2rem 0 2rem 2em;
+	padding: 3rem 0 3rem 2em;
 	font-weight: 400;
 	width: 38%;
 	text-align: left;
@@ -133,7 +134,7 @@ h3{
 }
 .subscribe{
 	width: 100%;
-	padding: 2em 0;
+	padding: 2rem 0 5rem;
 	height: 6em;
 }
 .subscribe input{
@@ -191,7 +192,7 @@ hr{
 }
 .faq{
 	text-align: left;
-	padding: 2rem 3em 0rem 0;
+	padding: 3rem 3em 3rem 0;
 	width: 61%;
 	float: left;
 	border-right: 1px dotted #777;
@@ -236,7 +237,7 @@ h2{
 .publisher{
 	clear: both;
 	border-top: 1px solid #777;
-	padding: 1em 0 1em 2rem;
+	padding: 1rem 0 1rem 2rem;
 	font-size: 1rem;
 	overflow: hidden;
 }
@@ -272,11 +273,11 @@ h2{
 	transform: translateY(-.3em);
 	display: inline-block;
 }
-footer{
+footer.responsive{
 	font-size: 1.2em;
 	clear: both;
 	border-bottom: 3px solid #777;
-	margin-bottom: 4em !important;
+	margin-bottom: 5rem;
 	text-transform: uppercase;
 }
 footer .inner{
