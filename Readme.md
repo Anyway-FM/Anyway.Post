@@ -5,7 +5,7 @@
 
 # 往期内容
 
-| 期数| 发送日期 | 特别内容 |
+| 期数 | 发送日期 | 特别内容 |
 |:--|:--|:--|
 | [第 30 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2330.md) | 2018 年 6 月 22 日 |  |
 | [第 29 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2329.md) | 2018 年 6 月 8 日 |  |
