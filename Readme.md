@@ -7,12 +7,13 @@
 
 | 期数 | 发送日期 | 特别内容 |
 |:--|:--|:--|
+| [第 34 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2334.md) | 2018 年 8 月 22 日 | |
 | [第 33 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2333.md) | 2018 年 8 月 6 日 | Framer X 上手体验 |
-| [第 32 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2332.md) | 2018 年 7 月 20 日 |  |
+| [第 32 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2332.md) | 2018 年 7 月 20 日 | |
 | [第 31 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2331.md) | 2018 年 7 月 6 日 | 软影像 #4：新宿卖相机事件 |
-| [第 30 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2330.md) | 2018 年 6 月 22 日 |  |
-| [第 29 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2329.md) | 2018 年 6 月 8 日 |  |
-| [第 28 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2328.md) | 2018 年 5 月 25 日 |  |
+| [第 30 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2330.md) | 2018 年 6 月 22 日 | |
+| [第 29 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2329.md) | 2018 年 6 月 8 日 | |
+| [第 28 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2328.md) | 2018 年 5 月 25 日 | |
 | [第 27 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2327.md) | 2018 年 5 月 10 日 | 软影像 #3：照片分享社区的故事 |
 | [第 26 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2326.md) | 2018 年 4 月 28 日 | |
 | [第 25 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2325.md) | 2018 年 4 月 13 日 | 图标漫步（九）：#FF0000 |
