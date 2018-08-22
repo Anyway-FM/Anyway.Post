@@ -11,7 +11,7 @@ var fontUrl = [
 	[ 'fonts/', 'https://s.anw.red/anyway.post/' ]
 ];
 
-gulp.task('default', function() {
+gulp.task('build', function() {
 
 	gulp.src(['index.html','result.php'])
 		.pipe(plugins.fontSpider({ignore: ['assets/fonts.css']}));
@@ -34,7 +34,7 @@ gulp.task('default', function() {
 		.pipe(gulp.dest('builds'));
 });
 
-gulp.task('md', function() {
+gulp.task('default', function() {
 	var mds = require('markdown-styles'),
 	    path = require('path');
 
@@ -58,7 +58,8 @@ gulp.task('md', function() {
 		[ '<li>', '<div>- ' ],
 		[ '</li>', '</div>' ],
 		[ '<hr>', '' ],
-		[ '<blockquote', '<blockquote style=\"border-left:4px solid #ffe324; padding-left:.6em;font-style:normal;\"' ],
+		[ '<blockquote', '<div style=\"border-left:4px solid #ffe324; padding-left:.6em;margin-left:1rem;font-weight:300;font-style:normal;\"' ],
+		[ '</blockquote>', '</div>' ],
 		[ '<h1', '<div style=\"margin: 5em 0 .7em;background-color:#ffe324;width:.8em;height:.8em;\"></div><div style=\"color:#333 !important;font-weight:700;font-size:1.25em;margin-top:0em;margin-bottom:0;\"' ],
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;\"' ],
