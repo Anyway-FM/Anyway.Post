@@ -53,6 +53,9 @@ a:hover{
 	margin: .2em auto;
 	max-width: 85%;
 }
+.orphan-fix{
+	display: inline-block;
+}
 header{
 	background: #fff;
 	border-bottom: 3px solid #777;
@@ -134,40 +137,46 @@ h3{
 }
 .subscribe{
 	width: 100%;
-	padding: 2rem 0 5rem;
-	height: 6em;
+	padding: 1rem 0 1rem;
+}
+.mc-field-group{
+	margin: 0 0 1rem;
 }
 .subscribe input{
 	border: 1px solid #aaa;
 	border-radius: 0;
 	height: 2.4em;
-	font-size: 1em;
-	float: left;
 	display: block;
+	width: 80%;
 	transition: all .1s ease-in;
 	-webkit-appearance: none;
 }
 .subscribe .input-box{
-	width: 70%;
+	width: 80%;
 	background: #fff;
-	padding: .1em .5em;
+	padding: .2em .4em;
+	font-size: .875rem;
 	color: #777;
-	font-family: serif;
-	border-right: none;
+	font-family: inherit;
 }
 .input-box:hover,
 .input-box:active{
 	border-color: #ffe324;
 }
+.subscrib label{
+	display: block;
+}
 .subscribe .btn{
-	width: 30%;
+	width: auto;
 	background: #555;
 	color: #fff;
+	font-size: 1rem;
+	padding: .2em 1.5em;
 	border: 1px solid #555;
-	border-left: none;
 	text-align: center;
 	font-weight: 900;
 	cursor: pointer;
+	margin-top: 1.2rem;
 }
 .btn:hover{
 	background: #ffe324;
@@ -175,7 +184,6 @@ h3{
 	color: #222;
 }
 .form-desc{
-	clear: both;
 	line-height: 1.75;
 }
 .instructions{
