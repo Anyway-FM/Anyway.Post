@@ -183,6 +183,9 @@ h3{
 	border-color: #ffe324;
 	color: #222;
 }
+.response{
+	font-weight: 700;
+}
 .form-desc{
 	line-height: 1.75;
 }
