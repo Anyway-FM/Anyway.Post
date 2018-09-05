@@ -40,7 +40,7 @@ gulp.task('default', function() {
 
 	mds.render(mds.resolveArgs({
 	  input: path.normalize(process.cwd() + '/Posts/Markdown'),
-	  output: path.normalize(process.cwd() + '/Posts/HTML'),
+	  output: path.normalize(process.cwd() + '/Posts/html'),
 	  layout: path.normalize(process.cwd() + '/Posts/Theme'),
 	}), function() {
 	  console.log('All done!');
