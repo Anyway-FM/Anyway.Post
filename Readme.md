@@ -7,6 +7,7 @@
 
 | 期数 | 发送日期 | 特别内容 |
 |:--|:--|:--|
+| [第 38 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2338.md) | 2018 年 10 月 29 日 | Anyway.Member 会员铭牌买家秀 |
 | [第 37 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2337.md) | 2018 年 10 月 12 日 | 副主编[友才](http://mangmor.com/)正式加入编辑部！ |
 | [第 36 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2336.md) | 2018 年 9 月 21 日 | |
 | [第 35 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2335.md) | 2018 年 9 月 6 日 | |
