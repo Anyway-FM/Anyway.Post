@@ -4,9 +4,9 @@
 一份双周更新的由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报，创刊于 2017 年 2 月。我们在此为你提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。
 
 # 往期内容
-| 期数 | 发送日期 | 特别内容 |
+| 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|
-| [第 42 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2342.md) | 2019 年 1 月 4 日 | 2018 年度总结 |
+| [第 42 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2342.md) | 2019 年 1 月 4 日 | Figma 设计团队 / 昆虫真奇妙 / 乔布斯的另一面 | 2018 年度总结 |
 
 ## 2018 年
 | 期数 | 发送日期 | 特别内容 |
