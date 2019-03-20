@@ -64,7 +64,7 @@ gulp.task('default', function() {
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;\"' ],
 		[ '</h2>', '</div>' ],
-		[ '<h3', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.38;\"' ],
+		[ '<h3>', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.38;\">→ ' ],
 		[ '</h3>', '</div>' ],
 		['<em>|NAME|</em>','*|NAME|*']
 	];
