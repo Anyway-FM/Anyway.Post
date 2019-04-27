@@ -6,6 +6,7 @@
 		"gulp-rename": "*",
 		"gulp-watch": "*",
 		"gulp-svgo": "*",
+		"gulp-changed": "*",
 		"gulp-font-spider": "*",
     "gulp-concat": "*",
 		"markdown-styles": "*",
