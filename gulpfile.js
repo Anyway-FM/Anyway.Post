@@ -18,25 +18,29 @@ gulp.task('build', function() {
 
 	gulp.src(['*.html','*.php'])
 		.pipe(plugins.batchReplace(cdnUrl))
+		.pipe(plugins.changed('builds'))
 		.pipe(gulp.dest('builds'));
 
 	gulp.src('assets/fonts/*.*')
+		.pipe(plugins.changed('builds'))
   	.pipe(gulp.dest('builds'));
 
 	gulp.src('assets/*.svg')
     .pipe(plugins.svgo())
+		.pipe(plugins.changed('builds'))
     .pipe(gulp.dest('builds'));
 
 	gulp.src(['assets/*.css','!assets/*.min.css'])
 		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.batchReplace(fontUrl))
 		.pipe(plugins.cleanCss({compatibility: 'ie8'}))
+		.pipe(plugins.changed('builds'))
 		.pipe(gulp.dest('builds'));
 });
 
 gulp.task('default', function() {
 	var mds = require('markdown-styles'),
-	    path = require('path');
+    path = require('path');
 
 	mds.render(mds.resolveArgs({
 	  input: path.normalize(process.cwd() + '/Posts/Markdown'),
@@ -48,7 +52,7 @@ gulp.task('default', function() {
 
 	var htmlTheme = [
 		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:1px solid #666;\" href' ],
-		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1.2em;margin-bottom:1.5em;\"' ],
+		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1em;margin-bottom:1em;\"' ],
 		[ '</p>', '</div>' ],
 		[ '<img ', '<img width=\"100%\" style=\"max-width:100%;\" ' ],
 		[ '<ul', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
@@ -64,7 +68,7 @@ gulp.task('default', function() {
 		[ '</h1>', '</div>' ],
 		[ '<h2', '<div style=\"color:#333 !important;font-weight:700;font-size:1em;margin-top:2.5em;margin-bottom:.1em;\"' ],
 		[ '</h2>', '</div>' ],
-		[ '<h3>', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.5em;line-height:1.38;\">→ ' ],
+		[ '<h3>', '<div style=\"font-weight:700;font-size:15px;margin-top:0;margin-bottom:1.2em;line-height:1.38;\">→ ' ],
 		[ '</h3>', '</div>' ],
 		['<em>|NAME|</em>','*|NAME|*']
 	];
