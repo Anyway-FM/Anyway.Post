@@ -6,8 +6,9 @@
 # 往期内容
 | 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|:--|
-| [第 47 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2347.md) | 2019 年 5 月 19 日 | PS 的缩放 / 数据可视化 / PNG 压缩  | |
-| [第 46 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2346.md) | 2019 年 4 月 28 日 | 明星 vs. 字体 / 悲伤的故事 / 网页设计博物馆  | |
+| [第 48 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2348.md) | 2019 年 6 月 4 日 | Sketch 图表 / 切尔诺贝利 / 手机眼动实验 | |
+| [第 47 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2347.md) | 2019 年 5 月 19 日 | PS 的缩放 / 数据可视化 / PNG 压缩 | |
+| [第 46 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2346.md) | 2019 年 4 月 28 日 | 明星 vs. 字体 / 悲伤的故事 / 网页设计博物馆 | |
 | [第 45 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2345.md) | 2019 年 3 月 10 日 | Sketch 图表 / Dribbble 招聘 / Web 端 3D 工具 | |
 | [第 44 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2344.md) | 2019 年 2 月 22 日 | 虚拟头像生成 / Office 新图标 / 视频版 Unsplash | 科幻 & 科普 |
 | [第 43 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2343.md) | 2019 年 2 月 2 日 | UI 自测题 / 501 军团 / 配色方案设计 | |
