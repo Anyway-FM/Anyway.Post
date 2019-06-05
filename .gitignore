@@ -16,3 +16,6 @@ Posts/HTML/*.*
 Posts/html/
 Media
 Posts/HTML/
+*.eot
+*.woff
+*.ttf
