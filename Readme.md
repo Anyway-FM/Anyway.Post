@@ -6,7 +6,7 @@
 # 往期内容
 | 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|:--|
-| [第 49 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2349.md) | 2019 年 7 月 12 日 | DeviantArt 改版 / 播客片段分享 / SF Symbols | |
+| [第 49 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2349.md) | 2019 年 7 月 12 日 | DeviantArt 改版 / 播客片段分享 / SF Symbols | 广东线下活动通知 |
 | [第 48 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2348.md) | 2019 年 6 月 4 日 | Sketch 图表 / 切尔诺贝利 / 手机眼动实验 | |
 | [第 47 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2347.md) | 2019 年 5 月 19 日 | PS 的缩放 / 数据可视化 / PNG 压缩 | |
 | [第 46 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2346.md) | 2019 年 4 月 28 日 | 明星 vs. 字体 / 悲伤的故事 / 网页设计博物馆 | |
