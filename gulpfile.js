@@ -51,7 +51,7 @@ gulp.task('default', function() {
 	});
 
 	var htmlTheme = [
-		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:1px solid #666;\" href' ],
+		[ '<a href', '<a style=\"text-decoration:none;color:#333 !important;border-bottom:2px solid #ffe324;\" href' ],
 		[ '<p', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:1em;margin-bottom:1em;\"' ],
 		[ '</p>', '</div>' ],
 		[ '<img ', '<img width=\"100%\" style=\"max-width:100%;\" ' ],
