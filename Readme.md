@@ -6,6 +6,7 @@
 # 往期内容
 | 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|:--|
+| [第 50 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2350.md) | 2019 年 8 月 2 日 | 怀旧电台 / 阿波罗 11 号 / 月亮巡礼 | |
 | [第 49 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2349.md) | 2019 年 7 月 12 日 | DeviantArt 改版 / 播客片段分享 / SF Symbols | 广东线下活动通知 |
 | [第 48 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2348.md) | 2019 年 6 月 4 日 | Sketch 图表 / 切尔诺贝利 / 手机眼动实验 | |
 | [第 47 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2347.md) | 2019 年 5 月 19 日 | PS 的缩放 / 数据可视化 / PNG 压缩 | |
