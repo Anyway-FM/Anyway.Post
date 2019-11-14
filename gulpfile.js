@@ -44,10 +44,10 @@ gulp.task('default', function() {
 
 	mds.render(mds.resolveArgs({
 	  input: path.normalize(process.cwd() + '/Posts/Markdown'),
-	  output: path.normalize(process.cwd() + '/Posts/html'),
+	  output: path.normalize(process.cwd() + '/Posts/Temp'),
 	  layout: path.normalize(process.cwd() + '/Posts/Theme'),
 	}), function() {
-	  console.log('All done!');
+	  console.log('HTML 转换完成~');
 	});
 
 	var htmlTheme = [
@@ -59,8 +59,10 @@ gulp.task('default', function() {
 		[ '</ul>', '</div>' ],
 		[ '<ol', '<div style=\"color:#555;font-size:15px;line-height:1.7;margin-top:.5em;margin-bottom:.5em;\"' ],
 		[ '</ol>', '</div>' ],
-		[ '<li>', '<div>- ' ],
-		[ '</li>', '</div>' ],
+
+		[ '<li>', '<table style=\"border:0;border-collapse:collapse;margin-bottom:.3em;color:#333;\"><tr><td style=\"font-size:15px;width:.5em;color:#777;vertical-align:top;\">·</td><td style=\"font-family:AnywayType,sans-serif;font-size:15px;\">' ],
+		[ '</li>', '</td></tr></table>' ],
+
 		[ '<hr>', '' ],
 		[ '<blockquote', '<div style=\"border-left:4px solid #ffe324; padding-left:.6em;margin-left:1rem;font-weight:300;font-style:normal;\"' ],
 		[ '</blockquote>', '</div>' ],
@@ -73,9 +75,9 @@ gulp.task('default', function() {
 		['<em>|NAME|</em>','*|NAME|*']
 	];
 
-	gulp.src('Posts/HTML/*.html')
+	return gulp.src('Posts/Temp/*.html')
 		.pipe(plugins.batchReplace(htmlTheme))
-		.pipe(gulp.dest('posts/HTML/'));
+		.pipe(gulp.dest('Posts/HTML/'));
 
  });
 
