@@ -6,6 +6,7 @@
 # 往期内容
 | 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|:--|
+| [第 55 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2355.md) | 2019 年 11 月 14 日 | 文章生成器 / 屏幕尺寸分布 / 隐私页面 | |
 | [第 54 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2354.md) | 2019 年 9 月 20 日 | 反向面试 / Duolingo / CSS 梗 | 听众中来 |
 | [第 53 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2353.md) | 2019 年 9 月 5 日 | 假客户 / Leon Sans / Android 10 | |
 | [第 52 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2352.md) | 2019 年 8 月 23 日 | Android 重设计 / App 下载导流 / 初代 Emoji | |
