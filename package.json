@@ -1,17 +1,17 @@
 {
-	"dependencies": {
-    "gulp": "*",
-		"gulp-clean-css": "*",
-		"gulp-load-plugins": "*",
-		"gulp-rename": "*",
-		"gulp-watch": "*",
-		"gulp-svgo": "*",
-		"gulp-changed": "*",
-		"gulp-font-spider": "*",
-    "gulp-concat": "*",
-		"markdown-styles": "*",
-    "gulp-word-count": "*",
-		"gulp-batch-replace": "*",
-		"gulp-htmlmin": "*"
-	}
+		"dependencies": {
+				"gulp": "4.0.2",
+				"gulp-clean-css": "*",
+				"gulp-load-plugins": "*",
+				"gulp-rename": "*",
+				"gulp-watch": "*",
+				"gulp-svgo": "*",
+				"gulp-changed": "*",
+				"gulp-font-spider": "*",
+				"gulp-concat": "*",
+				"markdown-styles": "*",
+				"gulp-word-count": "*",
+				"gulp-batch-replace": "*",
+				"gulp-htmlmin": "*"
+		}
 }
