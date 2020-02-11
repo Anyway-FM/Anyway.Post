@@ -1,9 +1,14 @@
 ![](https://raw.githubusercontent.com/JJYing/Anyway-Post/master/assets/anyway-post-logo.png)
 
 
-一份双周更新的由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报，创刊于 2017 年 2 月。我们在此为你提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。
+一份由 [Anyway.FM](http://anyway.fm/) 发行的坊间小报，创刊于 2017 年 2 月，最终期发布于 2020 年 2 月 11 日，为大家提供与设计行业相关的新闻咨询、网摘推荐以及专栏文章等内容。现已升级为《[安妮薇时报](http://Anyway.News)》
 
 # 往期内容
+| 期数 | 发送日期 | 目录 | 
+|:--|:--|:--|
+| [第 57 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2357.md) | 2020 年 2 月 11 日 | 「最后一期」 |
+
+## 2019 年
 | 期数 | 发送日期 | 目录 | 特别内容 |
 |:--|:--|:--|:--|
 | [第 56 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2356.md) | 2019 年 12 月 6 日 | Bruno Simon / 北京地铁 / 公众号的「黑科技」 | 上海站线下活动 |
@@ -70,7 +75,3 @@
 | [第 3 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%233.md) | 2017 年 3 月 17 日 | |
 | [第 2 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%232.md) | 2017 年 3 月 2 日 | |
 | [第 1 期](https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%231.md) | 2017 年 2 月 14 日 | 创刊号 |
-
-
-# 官网地址
-[https://Anyway.FM/post/](https://anyway.fm/post/)
